@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27102.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{2E346414-3E91-4B4E-BF85-ED30E94B2EDA}"
 EndProject
@@ -18,8 +18,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIAProject", "TIAProject\TIAProject.csproj", "{A1D0023E-B1A9-4356-B962-7B2AA5B45254}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeBasedSlicingProject", "TimeBasedSlicingProject\TimeBasedSlicingProject.csproj", "{1D25C093-3D64-4315-BD09-DC79F564B6D4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlakyTestProject", "FlakyTestProject\FlakyTestProject.csproj", "{745B01FC-A778-4441-9A6C-524C29461C85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,15 +45,8 @@ Global
 		{1D25C093-3D64-4315-BD09-DC79F564B6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D25C093-3D64-4315-BD09-DC79F564B6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D25C093-3D64-4315-BD09-DC79F564B6D4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{745B01FC-A778-4441-9A6C-524C29461C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{745B01FC-A778-4441-9A6C-524C29461C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{745B01FC-A778-4441-9A6C-524C29461C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{745B01FC-A778-4441-9A6C-524C29461C85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {27D06515-BEF0-49D1-9160-D4F602A6F3AB}
 	EndGlobalSection
 EndGlobal
