@@ -25,8 +25,8 @@ namespace CUITProject
         [TestMethod]
         public void BasicCUITest()
         {
-            BrowserWindow browser = BrowserWindow.Launch("https://www.google.com");
-            Playback.Wait(1000);
+            var mainWindow = ApplicationUnderTest.Launch("C:\\Windows\\System32\\notepad.exe");
+            mainWindow.Close();
         }        
 
         #region Additional test attributes
