@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeBasedSlicingProject", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlakyTestProject", "FlakyTestProject\FlakyTestProject.csproj", "{745B01FC-A778-4441-9A6C-524C29461C85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataDrivenTestProject", "DataDrivenTestProject\DataDrivenTestProject\DataDrivenTestProject.csproj", "{5A02CBA2-7F2A-49AA-97AA-FC20289B3CC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{745B01FC-A778-4441-9A6C-524C29461C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{745B01FC-A778-4441-9A6C-524C29461C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{745B01FC-A778-4441-9A6C-524C29461C85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A02CBA2-7F2A-49AA-97AA-FC20289B3CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A02CBA2-7F2A-49AA-97AA-FC20289B3CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A02CBA2-7F2A-49AA-97AA-FC20289B3CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A02CBA2-7F2A-49AA-97AA-FC20289B3CC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
