@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlakyTestProject", "FlakyTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataDrivenTestProject", "DataDrivenTestProject\DataDrivenTestProject\DataDrivenTestProject.csproj", "{5A02CBA2-7F2A-49AA-97AA-FC20289B3CC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodedUITestProject3", "CodedUITestProject3\CodedUITestProject3\CodedUITestProject3.csproj", "{75BC1A34-3746-414C-8123-C0C0E89032C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{5A02CBA2-7F2A-49AA-97AA-FC20289B3CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A02CBA2-7F2A-49AA-97AA-FC20289B3CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A02CBA2-7F2A-49AA-97AA-FC20289B3CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75BC1A34-3746-414C-8123-C0C0E89032C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75BC1A34-3746-414C-8123-C0C0E89032C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75BC1A34-3746-414C-8123-C0C0E89032C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75BC1A34-3746-414C-8123-C0C0E89032C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
