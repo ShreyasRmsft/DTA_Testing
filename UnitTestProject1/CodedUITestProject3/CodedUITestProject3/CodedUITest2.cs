@@ -5,69 +5,43 @@ using System.Text.RegularExpressions;
 using Microsoft.VisualStudio.TestTools.UITesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-
 namespace CodedUITestProject3
 {
-    /// <summary>
-    /// Summary description for CodedUITest1
-    /// </summary>
     [CodedUITest]
-    public class CodedUITest1
+    public class CodedUITest2
     {
-        [ClassInitialize()]
-        public static void ClassInit(TestContext context)
-        {
-            tempFile = Path.Combine(Path.GetTempPath(), "tempfile.txt");
-        }
-
-        public CodedUITest1()
-        {
-        }
-
         [TestMethod]
-        public void CodedUITest11()
-        {
-            if (!File.Exists(tempFile))
-            {
-                File.WriteAllText(tempFile, "1");
-            }
-        }
-
-        [TestMethod]
-        public void CodedUITest12()
-        {
-            if (File.Exists(tempFile))
-            {
-                if (int.Parse(File.ReadAllText(tempFile)) == 1)
-                {
-                    File.WriteAllText(tempFile, "2");
-                    Assert.Fail();
-                }
-
-                File.Delete(tempFile);
-            }
-        }
-
-        [TestMethod]
-        public void CodedUITest13()
+        public void CodedUITest21()
         {
             //Always pass
         }
 
         [TestMethod]
-        public void CodedUITest14()
+        public void CodedUITest22()
         {
             //Always pass
         }
 
         [TestMethod]
-        public void CodedUITest15()
+        public void CodedUITest23()
         {
             //Always pass
         }
 
         [TestMethod]
-        public void CodedUITest16()
+        public void CodedUITest24()
+        {
+            //Always pass
+        }
+
+        [TestMethod]
+        public void CodedUITest25()
+        {
+            //Always pass
+        }
+
+        [TestMethod]
+        public void CodedUITest26()
         {
             //Always pass
         }
