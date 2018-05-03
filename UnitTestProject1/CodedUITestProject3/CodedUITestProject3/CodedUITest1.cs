@@ -25,7 +25,7 @@ namespace CodedUITestProject3
         }
 
         [TestMethod]
-        public void CodedUITest11()
+        public void CodedUITest111()
         {
             if (!File.Exists(tempFile))
             {
@@ -34,7 +34,7 @@ namespace CodedUITestProject3
         }
 
         [TestMethod]
-        public void CodedUITest12()
+        public void CodedUITest112()
         {
             if (File.Exists(tempFile))
             {
@@ -49,25 +49,25 @@ namespace CodedUITestProject3
         }
 
         [TestMethod]
-        public void CodedUITest13()
+        public void CodedUITest113()
         {
             //Always pass
         }
 
         [TestMethod]
-        public void CodedUITest14()
+        public void CodedUITest114()
         {
             //Always pass
         }
 
         [TestMethod]
-        public void CodedUITest15()
+        public void CodedUITest115()
         {
             //Always pass
         }
 
         [TestMethod]
-        public void CodedUITest16()
+        public void CodedUITest116()
         {
             //Always pass
         }

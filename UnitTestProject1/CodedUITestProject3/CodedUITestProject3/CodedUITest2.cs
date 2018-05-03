@@ -11,37 +11,37 @@ namespace CodedUITestProject3
     public class CodedUITest2
     {
         [TestMethod]
-        public void CodedUITest21()
+        public void CodedUITest211()
         {
             //Always pass
         }
 
         [TestMethod]
-        public void CodedUITest22()
+        public void CodedUITest212()
         {
             //Always pass
         }
 
         [TestMethod]
-        public void CodedUITest23()
+        public void CodedUITest213()
         {
             //Always pass
         }
 
         [TestMethod]
-        public void CodedUITest24()
+        public void CodedUITest214()
         {
             //Always pass
         }
 
         [TestMethod]
-        public void CodedUITest25()
+        public void CodedUITest215()
         {
             //Always pass
         }
 
         [TestMethod]
-        public void CodedUITest26()
+        public void CodedUITest216()
         {
             //Always pass
         }
