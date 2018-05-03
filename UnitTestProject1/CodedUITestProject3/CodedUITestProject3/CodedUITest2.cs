@@ -80,7 +80,6 @@ namespace CodedUITestProject3
             }
         }
 
-        private static string tempFile;
         private UIMap map;
     }
 }
